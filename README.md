@@ -25,7 +25,7 @@ DER is a method that improves the efficiency of multi-class prediction by enabli
 ## Pre-requisites
 Run the following commands to clone this repository and install the required packages.
 ```bash
-git clone https://github.com/DigitalHealthcareLab/23HIDERatArthritis.git
+git clone https://github.com/DigitalHealthcareLab/24HiDER.git
 pip install -r requirements.txt
 ```
 
