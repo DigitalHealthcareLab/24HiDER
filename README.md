@@ -15,7 +15,7 @@ We developed Hierarchical Dynamically Expandable Representation (Hi-DER), a hier
 - [Citation](#citation)
 
 ## Introduction
-While osteoarthritis (OA) affects various joints with different morphologies and diverse pathological changes, most previous studies are designed for single joint classification with limited generalizability. To date, there has been no study that developed a multiple joint OA classification model with continuously expandable classification capabilities. The hierarchical continual OA classification model proposed in this study can be continuously updated for large-scale studies of multiple joints with various anatomical structures.
+While osteoarthritis (OA) affects various joints with different morphologies and diverse pathological changes, most previous studies are designed for single joint classification with limited generalizability. To date, there has been no study that developed a multi-joint OA classification model with continuously expandable classification capabilities. The hierarchical continual OA classification model proposed in this study can be continuously updated for large-scale studies of multiple joints with various anatomical structures.
 
 ## Proposed Architecture
 ![Figure_2](https://github.com/DigitalHealthcareLab/24HiDER/assets/61937818/5226e695-c283-4010-a38f-9c7f9f4d83a4)
