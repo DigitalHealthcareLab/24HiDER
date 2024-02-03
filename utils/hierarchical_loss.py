@@ -4,6 +4,17 @@ import torch
 import torch.nn as nn
 
 
+L1_to_L2 = {
+    0:[0],
+    1:[1,2],
+    2:[3],
+    3:[4,5],
+    4:[6],
+    5:[7,8],
+    6:[9],
+    7:[10,11]
+}
+
 L2_to_L3 = {
     0:[0],
     1:[1],
@@ -17,17 +28,6 @@ L2_to_L3 = {
     9:[12],
     10:[13],
     11:[14,15]
-}
-
-L1_to_L2 = {
-    0:[0],
-    1:[1,2],
-    2:[3],
-    3:[4,5],
-    4:[6],
-    5:[7,8],
-    6:[9],
-    7:[10,11]
 }
 
 
@@ -65,7 +65,7 @@ class HierarchicalLossNetwork:
         bool_tensor = []
 
         for i in range(prev_prev_lvl_pred.size(0)):
-            if prev_lvl_pred[i].item() in L1_to_L2[prev_prev_lvl_pred[i].item()] and current_lvl_pred[i].item() in L2_to_L3[prev_lvl_pred[i].item()]  :
+            if prev_lvl_pred[i].item() in L1_to_L2[prev_prev_lvl_pred[i].item()] and current_lvl_pred[i].item() in L2_to_L3[prev_lvl_pred[i].item()]:
                 bool_tensor.append(False)
             else:
                 bool_tensor.append(True)
