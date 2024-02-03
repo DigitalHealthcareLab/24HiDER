@@ -39,6 +39,7 @@ pip install -r requirements.txt
 ## Run Experiment
 - Edit the [hider.json](./exps/hider.json) file for global settings.
 - Set hyperparameters for training in the [hider.py](./models/hider.py) file.
+- Set data path in the [data.py](./utils/data.py) file.
 - Edit the structure of hierarchical labels in the [base.py](./models/base.py), [hider.py](./models/hider.py), and [hierarchical_loss.py](./utils/hierarchical_loss.py) file.
 - Run the following command to run the experiment.
 ```bash
