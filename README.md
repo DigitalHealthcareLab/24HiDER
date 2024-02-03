@@ -15,9 +15,8 @@ We developed Hierarchical Dynamically Expandable Representation (Hi-DER), a hier
 - [Citation](#citation)
 
 ## Introduction
-Training medical AI in a fixed range of settings, for instance, applying individualized training process to each of the multiple joints with various morphologies, is time-consuming and resource-intensive. Moreover, while AI model training for OA typically requires vast amounts of data, some joints or OA grades might lack sufficient data. Although some studies have applied continual learning to update the classification range of medical AI models, research for superior continual learning methods that utilize strategies such as dynamically expandable representation ([DER](https://arxiv.org/abs/2103.16788)) is lacking.
+While osteoarthritis (OA) affects joints with different morphologies and diverse pathological changes, most previous studies are designed for single joint classification with limited generalizability. To date, there has been no study that developed a multiple joint hierarchical OA classification model with continuously expandable classification capabilities.![image](https://github.com/DigitalHealthcareLab/24HiDER/assets/61937818/511f2a84-63a7-43fb-b61f-56fa760b5872)
 
-DER is a method that improves the efficiency of multi-class prediction by enabling the simultaneous handling of multiple tasks and adaptation of new classifications. However, it assumes a dataset with no connection between the outcomes, while most outcomes in the medical domain in contrast have a hierarchical structure. Therefore, we propose a three-stage architecture that utilizes a hierarchical labeling approach within the incremental concept, to incorporate hierarchical information between the outcomes, and expand the applicability of DER.
 
 ## Proposed Architecture
 ![Figure_2](https://github.com/DigitalHealthcareLab/24HiDER/assets/61937818/5226e695-c283-4010-a38f-9c7f9f4d83a4)
