@@ -1,5 +1,3 @@
-# 24HiDER
-
 # Hi-DER
 This is the official PyTorch implementation of “[Classification models for osteoarthritis grades of multiple joints based on continual learning]()” (2024)
 
