@@ -1,7 +1,7 @@
 # Hi-DER
 This is the official PyTorch implementation of “[Classification models for osteoarthritis grades of multiple joints based on continual learning]()” (2024)
 
-In this work, we developed Hierarchical Dynamically Expandable Representation (Hi-DER), a hierarchical osteoarthritis (OA) classification model that can be continuously updated to OA classification of multiple joints, by using a continual learning strategy. Please refer to our paper for more details.
+In this work, we developed and validated Hierarchical Dynamically Expandable Representation (Hi-DER), a hierarchical osteoarthritis (OA) classification model that can be continuously updated to OA classification of multiple joints, by using a continual learning strategy. Please refer to our paper for more details.
 
 ## Table of Contents
 - [Introduction](#introduction)
