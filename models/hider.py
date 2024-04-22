@@ -126,13 +126,13 @@ class HiDER(BaseLearner):
         self._network.to(self._device)
         
         if self._cur_task == 0:
-            optimizer = Adam(filter(lambda p: p.requires_grad,self._network.parameters()), lr=init_lr,weight_decay=init_weight_decay,)
+            optimizer = Adam(filter(lambda p: p.requires_grad,self._network.parameters()), lr=init_lr, weight_decay=init_weight_decay,)
             scheduler = optim.lr_scheduler.MultiStepLR(
                 optimizer=optimizer, milestones=init_milestones, gamma=init_lr_decay
             )
             self._init_train(train_loader, test_loader, optimizer, scheduler)
         else:
-            optimizer = Adam(filter(lambda p: p.requires_grad,self._network.parameters()), lr=init_lr,weight_decay=init_weight_decay,)
+            optimizer = Adam(filter(lambda p: p.requires_grad,self._network.parameters()), lr=lrate, weight_decay=weight_decay,)
             scheduler = optim.lr_scheduler.MultiStepLR(
                 optimizer=optimizer, milestones=milestones, gamma=lrate_decay
             )
