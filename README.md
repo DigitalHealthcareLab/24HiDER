@@ -6,6 +6,7 @@ We propose Hierarchical Dynamically Expandable Representation (Hi-DER), a hierar
 ## Table of Contents
 - [Introduction](#introduction)
 - [Proposed Architecture](#proposed-architecture)
+- [DeLong's Test](#delongs-test)
 - [Pre-requisites](#pre-requisites)
 - [Hyperparameters](#hyperparameters)
 - [Run Experiment](#run-experiment)
