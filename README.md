@@ -20,7 +20,7 @@ Although arthropathy can affect diverse joints with different morphologies and p
 ![Figure_2](https://github.com/DigitalHealthcareLab/24HiDER/assets/61937818/5226e695-c283-4010-a38f-9c7f9f4d83a4)
 
 ## DeLong's Test
-The Hi-DER was developed using knee, elbow, ankle, and shoulder radiographs from Sinchon Severance hospital. To evaluate whether utilizing public datasets affects the predictive performance of Hi-DER, we conducted DeLong's test comparing the AUCs of the model that employed the pre-trained feature extractor and the original model which was trained solely on internal datasets. The pre-training was done using the Osteoarthritis Initiative dataset. Below, we provide the p-values from DeLong’s test at a significance level of 0.05, showing no significant difference in most cases.
+The Hi-DER was developed using knee, elbow, ankle, and shoulder radiographs from Sinchon Severance hospital. To evaluate whether utilizing large public datasets affects the predictive performance of Hi-DER, we conducted DeLong's test comparing the AUCs of the model that employed the pre-trained feature extractor and the original model which was trained solely on internal datasets. The pre-training was done using the Osteoarthritis Initiative dataset. Below, we provide the p-values from DeLong’s test at a significance level of 0.05, showing no significant difference in most cases.
 
 ![delongs_for_github](https://github.com/DigitalHealthcareLab/24HiDER/assets/61937818/dd7556a5-b407-4e8f-baa0-8af168b28837)
 
