@@ -18,6 +18,10 @@ Although arthropathy can affect diverse joints with different morphologies and p
 ## Proposed Architecture
 ![Figure_2](https://github.com/DigitalHealthcareLab/24HiDER/assets/61937818/5226e695-c283-4010-a38f-9c7f9f4d83a4)
 
+## DeLong's Test
+We conducted a DeLong’s test to determine if the AUC of the model that used the pre-trained feature extractor significantly differed from that of the original model which was trained solely on internal datasets.![image](https://github.com/DigitalHealthcareLab/24HiDER/assets/61937818/a851f095-a6e6-4f2d-bd78-3b6aa8be0d95)
+
+
 ## Pre-requisites
 Run the following commands to clone this repository and install the required packages.
 ```bash
