@@ -19,7 +19,7 @@ Although arthropathy can affect diverse joints with different morphologies and p
 ![Figure_2](https://github.com/DigitalHealthcareLab/24HiDER/assets/61937818/5226e695-c283-4010-a38f-9c7f9f4d83a4)
 
 ## DeLong's Test
-The Hi-DER was developed using knee, elbow, ankle, and shoulder radiographs from Sinchon Severance hospital. To see if utilizing public datasets affects the predictive performance of the Hi-DER, we conducted DeLong's test on whether the AUC of the model that employed the pre-trained feature extractor significantly differed from that of the original model which was trained solely on internal datasets.
+The Hi-DER was developed using knee, elbow, ankle, and shoulder radiographs from Sinchon Severance hospital. To see if utilizing public datasets affects the predictive performance of the Hi-DER, we conducted DeLong's test on whether the AUCs of the model that employed the pre-trained feature extractor significantly differed from that of the original model which was trained solely on internal datasets.
 
 ## Pre-requisites
 Run the following commands to clone this repository and install the required packages.
