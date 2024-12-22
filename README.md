@@ -7,7 +7,7 @@ We propose Hierarchical Dynamically Expandable Representation (Hi-DER), a hierar
 - [Introduction](#introduction)
 - [Proposed Architecture](#proposed-architecture)
 - [DeLong's Test](#delongs-test)
-- [Model Robustness: Addressing Underrepresented Features of Osteoarthritis](#model-robustness)
+- [Model Robustness: Addressing Underrepresented Features of Osteoarthritis](#model-robustness-addressing-underrepresented-features-of-osteoarthritis)
 - [Pre-requisites](#pre-requisites)
 - [Hyperparameters](#hyperparameters)
 - [Run Experiment](#run-experiment)
