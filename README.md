@@ -25,7 +25,7 @@ The Hi-DER was developed using knee, elbow, ankle, and shoulder radiographs from
 ![delongs_for_github](https://github.com/DigitalHealthcareLab/24HiDER/assets/61937818/dd7556a5-b407-4e8f-baa0-8af168b28837)
 
 ## Model Robustness: Addressing Underrepresented Features of Osteoarthritis
-The model's performance can be influenced by the underrepresentation of rare and mild cases. For example, ankle valgus osteoarthritis is significantly less common than varus osteoarthritis, leading to reduced diagnostic accuracy for such atypical cases. Additionally, early osteoarthritis with subtle minor osteophytes often poses challenges for detection algorithms. These limitations highlight the need for more diverse and balanced datasets to enhance model performance and generalizability. Our approach accounts for these challenges by focusing on generalized pathological findings across joint types such as joint space narrowing and osteophyte formation.
+The model's performance can be influenced by the underrepresentation of rare and mild cases. For example, ankle valgus osteoarthritis is significantly less common than varus osteoarthritis, leading to reduced diagnostic accuracy for such atypical cases. Additionally, early osteoarthritis with subtle minor osteophytes often poses challenges for osteoarthritis detection algorithms. These limitations highlight the need for more diverse and balanced datasets to enhance model performance and generalizability. Our approach accounts for these challenges by focusing on generalized pathological findings across joint types such as joint space narrowing and osteophyte formation.
 
 
 
