@@ -7,6 +7,7 @@ We propose Hierarchical Dynamically Expandable Representation (Hi-DER), a hierar
 - [Introduction](#introduction)
 - [Proposed Architecture](#proposed-architecture)
 - [DeLong's Test](#delongs-test)
+- [Model Robustness: Addressing Underrepresented Features of Osteoarthritis](#model-robustness)
 - [Pre-requisites](#pre-requisites)
 - [Hyperparameters](#hyperparameters)
 - [Run Experiment](#run-experiment)
@@ -27,7 +28,7 @@ The Hi-DER was developed using knee, elbow, ankle, and shoulder radiographs from
 ## Model Robustness: Addressing Underrepresented Features of Osteoarthritis
 The model's performance can be influenced by the underrepresentation of rare and mild cases. For example, ankle valgus osteoarthritis is significantly less common than varus osteoarthritis, leading to reduced diagnostic accuracy for such atypical cases. Additionally, early osteoarthritis with subtle minor osteophytes often poses challenges for osteoarthritis detection algorithms. These limitations highlight the need for more diverse and balanced datasets to enhance the model performance and generalizability. Our approach accounts for these challenges by focusing on generalized pathological findings across joint types such as joint space narrowing and osteophyte formation.
 
-
+![Screenshot 2024-12-21 at 10 04 46 PM](https://github.com/user-attachments/assets/c002c96f-e2ed-49cd-a390-201952fcc786)
 
 ## Pre-requisites
 Run the following commands to clone this repository and install the required packages.
