@@ -59,4 +59,14 @@ python main.py --config=./exps/hider.json
 Our code is based on [PyCIL](https://github.com/G-U-N/PyCIL). We thank the authors for providing the great base code.
 
 ## Citation
-If you find this code useful, please consider citing our paper.
+If you find this code useful, please consider citing our paper:
+```
+@article{jang2025classification,
+  title={Classification models for arthropathy grades of multiple joints based on hierarchical continual learning},
+  author={Jang, Bong Kyung and Kim, Shiwon and Yu, Jae Yong and Hong, JaeSeong and Cho, Hee Woo and Lee, Hong Seon and Park, Jiwoo and Woo, Jeesoo and Lee, Young Han and Park, Yu Rang},
+  journal={La radiologia medica},
+  pages={1--13},
+  year={2025},
+  publisher={Springer}
+}
+```
