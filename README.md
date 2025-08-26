@@ -1,5 +1,6 @@
 # Hi-DER
-This is the official PyTorch implementation of “[Classification models for arthropathy grades of multiple joints based on hierarchical continual learning](https://link.springer.com/article/10.1007/s11547-025-01974-4)” (2024)
+This is the official PyTorch implementation of our _La Radiologia Medica_ publication:<br>
+“[Classification models for arthropathy grades of multiple joints based on hierarchical continual learning.](https://link.springer.com/article/10.1007/s11547-025-01974-4)” (2025)
 
 We propose Hierarchical Dynamically Expandable Representation (Hi-DER), a hierarchical continual arthropathy classification model that can be continuously updated to arthropathy classification of multiple joints, by using a continual learning strategy. Please refer to our paper for more details.
 
